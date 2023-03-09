@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, rgba(0,126,148,1) 50%, rgba(245,245,245,1) 40%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid rgba(255, 255, 255, 0.23);
+    box-shadow: rgb(0 0 0 / 29%) 6.4px 10.4px 3.2px;
+    border-radius: 52px;
+}
+.left-bar, .right-bar{
+    width: 50%;
+}
+
+.left-bar{
+    padding: 25px;
+}
+.lb-header{
+    margin-bottom: 3rem;
+}
+.lb-header h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 200;
+}
+.lb-header h1 span{
+    font-weight: 700;
+}
+.lb-image{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.lb-image img{
+    width: 60%;
+}
+.lb-text p{
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 56px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.right-bar{
+    padding: 25px;
+}
+.rb-header{
+    margin-bottom: 3rem;
+}
+.rb-header h1{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+.input-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.input-field:nth-child(1){
+    margin-bottom: 2rem;
+}
+.input-field:nth-child(2){
+    margin-bottom: 1rem;
+}
+.input-field label{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    color: #5F5F5F;
+    margin-bottom: 5px;
+}
+.input-field input{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    letter-spacing: 0.3px;
+    color: #4B506D;
+    opacity: 0.8;
+    border: none;
+    border-radius: 8px;
+}
+.input-field input:focus{
+    color: black;
+    opacity: 1;
+    font-weight: 400;
+}
+.pass{
+    position: relative;
+}
+
+.pass #hide{
+    position: absolute;
+    top: 50%;
+    right: 4.5%;
+    text-decoration: none;
+    color: #007E94;
+    display: none;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 2rem;
+}
+.checkbox label{
+    color: #5F5F5F;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.btn{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.sign button{
+    width: 100%;
+    height: 50px;
+    background-color: #007E94;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.sign button:hover{
+    opacity: .8;
+    transition: .5s;
+}
+.cwGoogle a{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #233142;
+    height: 50px;
+    border-radius: 15px;
+}
+.cwGoogle a:hover{
+    opacity: .8;
+    transition: .5s;
+}
+.cwGoogle img{
+    width: 5%;
+    margin-right: 2rem;
+}
+.cwGoogle p{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+.msg{
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.msg p{
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #242424;
+}
+.msg p a{
+    color: #007E94;
+    text-decoration: none;
+}
