@@ -1,0 +1,76 @@
+@keyframes tada {
+   from {
+     transform: scale3d(1, 1, 1);
+   }
+   10%, 20% {
+     transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+   }
+   30%, 50%, 70%, 90% {
+     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+   }
+   40%, 60%, 80% {
+     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+   }
+   to {
+     transform: scale3d(1, 1, 1);
+   }
+ }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7eff5;
+    font-family: 'Lato', sans-serif;
+ }
+ .container{
+    text-align: center;
+    position: relative;
+ 
+ }
+ .copy{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+ }
+ .copied{
+   display: none;
+ }
+ .tada{
+   animation-name: tada;
+   animation-duration: 1s;
+   animation-delay: 0.2s;
+ }
+ .container h2{
+    background-color: #222;
+    padding: 20px 100px 20px 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 24px;
+ }
+ .color{
+    color: #75b9ec
+ }
+ 
+ .btn{
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #222;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #222;
+    outline: none;
+    cursor: pointer;
+ }
+ .btn:hover{
+    background-color: #222;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+ }
+  
