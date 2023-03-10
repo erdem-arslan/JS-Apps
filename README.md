@@ -6,15 +6,23 @@ Bu repo, HTML, CSS ve JavaScript kullanarak geliştirdiğim projelerimi sergilem
 
 Bu repo'da yer alan projeler şunlardır:
 
-- [Calculator](#): 4 İşlem yapabilen basit Hesap makinesi ayrıca Dark Mod mevcut.
-- [Login Page](#): Modern bir giriş paneli.
-- [Proje 3](#): Kapsamlı bir To Do List. To Do ekleyebilir, Silebilir, Tamamlandı olarak işaretleyebilir ve To Do lar içinde arama yapabilirsiniz.
+- [Calculator](https://github.com/erdem-arslan/JS-Apps/tree/main/Calculator): 4 İşlem yapabilen basit Hesap makinesi ayrıca Dark Mod mevcut.
+
+- [Login Page](https://github.com/erdem-arslan/JS-Apps/tree/main/Login-Page): Modern bir giriş paneli.
+
+- [To Do List](https://github.com/erdem-arslan/JS-Apps/tree/main/ToDo-List): Kapsamlı bir To Do List. To Do ekleyebilir, Silebilir, Tamamlandı olarak işaretleyebilir ve To Do lar içinde arama yapabilirsiniz.
+
+- [Random Password Generator](https://github.com/erdem-arslan/JS-Apps/tree/main/Random-Password-Generator): Rastgele şifre üretici. Belirlediğimiz karakter sayısı kadar uzunlukta şifre belirler.
+
+- [BG Color Changed](https://github.com/erdem-arslan/JS-Apps/tree/main/BG-Color-Changed): Buton her tıklandığında `body` nin rengi random renkler ile değiştirilir.
+
+- [BMI Calculator](https://github.com/erdem-arslan/JS-Apps/tree/main/BMI-Calculator): BMI(Vücut Kitle İndeksi) hesaplar.
 
 
 ## Teknolojiler
 
 Bu projeler HTML, CSS ve JavaScript kullanılarak geliştirildi.
-
+    
 - [HTML](https://www.w3schools.com/html/)
 
 - [CSS](https://www.w3schools.com/css/default.asp)
