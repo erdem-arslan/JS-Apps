@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BoxIcons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" defer></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript Files -->
+    <script src="main.js" defer></script>
+
+    <title>BMI Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>BMI Calculator</h2>
+        </header>
+        <div class="height">
+            <h6>Height <span>(cm)</span> </h6>
+            <input type="text" name="height" class="txt-input" id="height" placeholder="Height">
+        </div>
+        <div class="weight">
+            <h6>Weight <span>(lb)</span> </h6>
+            <input type="text" name="weight" class="txt-input" id="weight" placeholder="Weight">
+        </div>
+
+        <div class="button">
+            <button id="hesapla">Hesapla</button>
+        </div>
+
+        <div class="result">
+            <h3></h3>
+            <h5></h5>
+        </div>
+        <div class="restart-btn">
+            <box-icon name='reset' id="restart" class="restart" color="#fff"></box-icon>
+        </div>
+    </div>
+</body>
+
+</html>

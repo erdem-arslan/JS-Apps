@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes flashing {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    border: 12px solid rgba(255, 255, 255, 0.11);
+    border-radius: 25px;
+    box-shadow: rgba(3, 3, 3, 0.959) 8px 8px 8px 2px;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+.restart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    rotate: -45deg;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.flashing{
+    animation: flashing 0.5s infinite alternate;
+}
+header{
+    margin-bottom: 2rem;
+}
+header h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+.age,.height,.weight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ffffff34;
+}
+.txt-input{
+    width: 375px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+.error{
+    animation: shake 0.5s;
+    border:1px solid red;
+    background-color: rgb(90, 41, 41);
+
+}
+input:focus{
+    background-color: rgba(255, 255, 255, 0.788);
+    outline: none;
+}
+h6{
+    font-size: 1.1rem;
+    color: #ffffffa9;
+    font-weight: 400;
+}
+h6 span{
+    font-size: 0.6rem;
+    color: #fff;
+
+}
+#hesapla{
+    width: 250px;
+    padding: 15px;
+    background-color: #726559;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+#hesapla:active{
+    background-color: #726559c4;
+}
+.result h3{
+    font-size: 3rem;
+    color: #ffffffa9;
+}
+.result h5{
+    font-size: 1.5rem;
+    color: white;
+}
